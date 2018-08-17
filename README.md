@@ -58,5 +58,5 @@ function withdrawRewards(address to) public;
    * @dev allows the owner of the contract to stop future submitions
     
 ``` 
-function emergencyShutOff() public onlyOwner() {
+function emergencyShutOff() public onlyOwner();
 ```
