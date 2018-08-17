@@ -111,3 +111,7 @@ MetaMask is now ready.
 You should see the game appear in your chrome browser. 
 
 Enjoy. 
+
+### Rinkeby TestNet
+
+This contract is also deployed on the Rinkeby Testnet at address 0xbf82eb6ef9b4457c2248fcc4d364e55726ab0558
