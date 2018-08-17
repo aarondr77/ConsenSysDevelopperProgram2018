@@ -1,3 +1,5 @@
+## Avoiding Common Attacks 
+
 1) I decided that I did not need to add increased gas expenses to this smart contract by utilizing safe math. This is because it would be infeasible for any of the numbers in the smart contract to surpass 2^256 - 1. 
 
 
@@ -8,4 +10,6 @@
 
 
 4) No use of tx.orgin. Instead I use msg.sender, as bad actors can take advantage of tx.origin
+
+This smart contract is vulnerable to miners executing their authority to alter time based logic and sensor the transactions that they choose to include in the block they mine. If a miner is registered as LastClicker in the smart contract, then he is incentivized to not include any further calls to the game smart contract until the clock has expired. This is now a known vunlerability. It will be interesting to see if users continue to pump money into this game or if the only reason that users continue to play FOAM3D is because the pot has grown so large and they have invested enough money into the game that it is too costly not to continue playing.
 
