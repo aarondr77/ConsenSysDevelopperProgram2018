@@ -66,29 +66,47 @@ If you do not have the [MetaMask] (https://metamask.io/) chrome extension, get i
 
 If you do not have [Ganache](https://truffleframework.com/ganache) installed, install it. 
 
-###### 1) Launch Ganache
+```
+1) Launch Ganache
+```
 
 Create a local folder where you want to host the code. 
-###### 2) Download this github repo
+
+```
+2) Download this github repo
+```
 
 Navigate into your locally saved version of this repo via terminal
 
-###### 3) Truffle Compile
+```
+3) Truffle Compile
+```
 
 Back in terminal, run 
-###### 4) Truffle Migrate
+
+```
+4) Truffle Migrate
+```
 
 Now in MetaMask, 
 
-###### 5) Select, "Import Existing DEN" and copy and paste your wallet seed into the provided box on MetaMask. Make a password.
+```
+5) Select, "Import Existing DEN" and copy and paste your wallet seed into the provided box on MetaMask. Make a password.
+```
 
-###### 6) Click on "Main Network" to open up a dropdown menu of newtworks to connect to. Select, "Custom RPC"
+```
+Click on "Main Network" to open up a dropdown menu of newtworks to connect to. Select, "Custom RPC"
+```
 
-###### 7) Enter, "http://127.0.0.1:7545" and select "save"
+```
+7) Enter, "http://127.0.0.1:7545" and select "save"
+```
 
 MetaMask is now ready.
 
-###### 8) Back in terminal, type "npm run dev" to start the local web server
+```
+8) Back in terminal, type "npm run dev" to start the local web server
+```
 
 You should see the game appear in your chrome browser. 
 
