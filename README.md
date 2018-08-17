@@ -22,18 +22,18 @@ This game is highly inspired by [Fomo3D](https://exitscam.me/shakedown), a game 
   * @dev returns the address of the winner; 0 if no winner yet
   * @return address of winner
   
-  ```
-  function getAdopters() public view returns (address);
-  ```
+```
+function getAdopters() public view returns (address);
+```
   
   #### checkCurrentEndTime
   
    * @dev returns the time remaining on the clock
    * @return time remaining on clock
      
-    ```
-    function checkCurrentEndTime () public view returns (uint);
-    ```
+```
+function checkCurrentEndTime () public view returns (uint);
+```
     
   #### getSubmitions  
    
@@ -41,21 +41,22 @@ This game is highly inspired by [Fomo3D](https://exitscam.me/shakedown), a game 
    * @return the number of submitions to the smart contract
      
     
-    ```
-    function getSubmitions() public view returns(uint);
-    ```
+```
+function getSubmitions() public view returns(uint);
+```
     
    #### withdrawRewards
     
    * @dev allows a user to withdraw his rewards if he is the winner or if the contract has been cancelled, allows user to withdraw the amount of ether that he depositted.
 
-    ``` 
-    function withdrawRewards(address to) public;
-    ```
+``` 
+function withdrawRewards(address to) public;
+```
     
    #### emergencyShutOff
    
    * @dev allows the owner of the contract to stop future submitions
-    ``` 
-    function emergencyShutOff() public onlyOwner() {
-    ```
+    
+``` 
+function emergencyShutOff() public onlyOwner() {
+```
