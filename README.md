@@ -10,42 +10,36 @@ This game is highly inspired by [Fomo3D](https://exitscam.me/shakedown), a game 
 
 #### adopt
 
-/**
+
  * @dev allows a user to become the lastCaller iff the clock has not run out
- */
+ 
  ```
  function adopt() public payable;
  ```
  
  #### getAdopters
  
- /**
   * @dev returns the address of the winner; 0 if no winner yet
-  *
   * @return address of winner
-  */
+  
   ```
   function getAdopters() public view returns (address);
   ```
   
   #### checkCurrentEndTime
   
-  /**
-     * @dev returns the time remaining on the clock
-     *
-     * @return time remaining on clock
-     */
+   * @dev returns the time remaining on the clock
+   * @return time remaining on clock
+     
     ```
     function checkCurrentEndTime () public view returns (uint);
     ```
     
   #### getSubmitions  
    
-   /**
-     * @dev returns the total number of submitions
-     *
-     * @return the number of submitions to the smart contract
-     */
+   * @dev returns the total number of submitions
+   * @return the number of submitions to the smart contract
+     
     
     ```
     function getSubmitions() public view returns(uint);
@@ -53,20 +47,15 @@ This game is highly inspired by [Fomo3D](https://exitscam.me/shakedown), a game 
     
    #### withdrawRewards
     
-    /**
-     * @dev allows a user to withdraw his rewards if he is the winner or if
-     *    the contract has been cancelled, allows user to withdraw the amount
-     *    of ether that he depositted.
-     */
+   * @dev allows a user to withdraw his rewards if he is the winner or if the contract has been cancelled, allows user to withdraw the amount of ether that he depositted.
+
     ``` 
     function withdrawRewards(address to) public;
     ```
     
    #### emergencyShutOff
    
-   /**
-     * @dev allows the owner of the contract to stop future submitions
-     */
+   * @dev allows the owner of the contract to stop future submitions
     ``` 
     function emergencyShutOff() public onlyOwner() {
     ```
