@@ -95,7 +95,7 @@ Now in MetaMask,
 ```
 
 ```
-Click on "Main Network" to open up a dropdown menu of newtworks to connect to. Select, "Custom RPC"
+6) Click on "Main Network" to open up a dropdown menu of newtworks to connect to. Select, "Custom RPC"
 ```
 
 ```
